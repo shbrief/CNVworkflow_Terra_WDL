@@ -1,0 +1,12 @@
+{
+    "M1_variant_calling.M1_var.tumor_bam":"${this.samples.WXS_bam_path}",
+    "M1_variant_calling.M1_var.ref_fasta":"gs://broad-references/hg19/v0/Homo_sapiens_assembly19.fasta",
+    "M1_variant_calling.M1_var.cosmicVCF_idx":"gs://cnvworkflow_files_hg19/CosmicCodingMuts.vcf.gz.tbi",
+    "M1_variant_calling.M1_var.dbsnp_vcf_idx":"gs://broad-references/hg19/v0/dbsnp_138.b37.vcf.gz.tbi",
+    "M1_variant_calling.M1_var.cosmicVCF":"gs://cnvworkflow_files_hg19/CosmicCodingMuts.vcf.gz",
+    "M1_variant_calling.M1_var.ref_dict":"gs://broad-references/hg19/v0/Homo_sapiens_assembly19.dict",
+    "M1_variant_calling.M1_var.mutect1_docker":"jvivian/mutect",
+    "M1_variant_calling.M1_var.tumor_bai":"${this.samples.WXS_bai_path}",
+    "M1_variant_calling.M1_var.dbsnp_vcf":"gs://broad-references/hg19/v0/dbsnp_138.b37.vcf.gz",
+    "M1_variant_calling.M1_var.ref_fai":"gs://broad-references/hg19/v0/Homo_sapiens_assembly19.fasta.fai"
+}

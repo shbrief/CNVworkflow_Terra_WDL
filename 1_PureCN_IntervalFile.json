@@ -1,0 +1,6 @@
+{
+    "intervalfile.copy.destination":".",
+    "intervalfile.IntervalFile.inputBED":"gs://terra-cnvworkflow/whole_exome_agilent_1.1_hg19.bed",
+    "intervalfile.IntervalFile.inputFasta":"gs://broad-references/hg19/v0/Homo_sapiens_assembly19.fasta",
+    "intervalfile.IntervalFile.mappability":"gs://terra-cnvworkflow/wgEncodeCrgMapabilityAlign75mer.bigWig"
+}
